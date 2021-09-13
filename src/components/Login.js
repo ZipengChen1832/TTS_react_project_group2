@@ -1,22 +1,11 @@
-import { render } from '@testing-library/react';
+
 import React from 'react';
-import { useHistory } from 'react-router-dom';
-
-// https://github.com/john-smilga/react-advanced-2020
-// https://reactrouter.com/web/guides/quick-start
-
-
+import { Link } from 'react-router-dom';
 
 function Login() {
 
-    let history = useHistory();
-
-    render(
-
-    )
-
     
-    
+     
     return (
         <div className="container">
     <form className="form-signin">
@@ -34,7 +23,11 @@ function Login() {
 
 <div>
 
-<button onClick={() => {history.push("/tweet");}}>{" "}Login{" "}</button>
+
+<Link to="/tweet">Login</Link>
+
+
+
    </div>
     </div>
     </div>
