@@ -1,0 +1,7 @@
+.tweet {
+    border: 1px solid blue;
+    border-radius: 10px;
+    width: 200px;
+    margin: 20px 10px;
+    padding-left: 20px;
+}

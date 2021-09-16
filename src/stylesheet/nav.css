@@ -1,0 +1,19 @@
+ul {
+    display: inline-flex;
+    width: 100%;
+    background-color: cornflowerblue;
+}
+
+ul li{
+    list-style-type: none;
+    text-decoration: none;
+    margin: 10px;
+    width: 100px;
+    padding: 5px;
+}
+
+.navLink {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
